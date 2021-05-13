@@ -7,3 +7,7 @@ def test_page(browser):
     time.sleep(5)
     button = browser.find_element_by_css_selector("button.btn.btn-lg.btn-primary")
     assert button is not None, "this button is not found"
+    
+    
+    
+    #pytest --language=es test_items.py
